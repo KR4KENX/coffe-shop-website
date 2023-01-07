@@ -75,7 +75,7 @@ main article h1{
     padding: .5em;
 }
 .image-content .home-about-us:nth-child(1){
-    padding-top: 7em;
+    padding-top: 3em;
    }
 .image-content .home-about-us:nth-child(2) h2{
     text-align: left;
@@ -267,4 +267,7 @@ input:invalid{
     background-size: cover;
     background-attachment: fixed;
     }
+    .image-content .home-about-us:nth-child(1){
+        padding-top: 7em;
+       }
 }
