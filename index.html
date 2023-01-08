@@ -6,65 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b4d14735b8.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <nav>
-        <img width="100" src="https://cdn.pixabay.com/photo/2014/04/03/11/54/coffee-312521_1280.png" alt="logo">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#our-products">Our products</a></li>
-            <li><a href="#order">Order</a></li>
-        </ul>
-    </nav>
     <main>
+        <nav>
+            <img width="100" src="https://cdn.pixabay.com/photo/2014/04/03/11/54/coffee-312521_1280.png" alt="logo">
+            <ul>
+                <li><a href="#" onclick="menu()">Home</a></li>
+                <li><a href="#our-products" onclick="menu()">Our products</a></li>
+                <li><a href="#order" onclick="menu()">Order</a></li>
+            </ul>
+            <input type="button" value="MENU" onclick="menu()">
+        </nav>
         <article id="home">
             <div class="image-content">
-                <div class="home-about-us"><h2>How we make our coffe?</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A iure illo rem enim, assumenda perspiciatis aliquam ullam adipisci voluptatibus perferendis inventore velit corrupti in cum suscipit voluptas dicta nisi consequuntur, laborum libero minus neque debitis vitae officiis. Eligendi exercitationem id enim laborum temporibus eveniet facere aspernatur, architecto, voluptatum reiciendis facilis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis voluptate eligendi non quod aliquid id perferendis ullam necessitatibus in enim.</p></div>
-                <div class="home-about-us"><h2>Why you should choose us?</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A iure illo rem enim, assumenda perspiciatis aliquam ullam adipisci voluptatibus perferendis inventore velit corrupti in cum suscipit voluptas dicta nisi consequuntur, laborum libero minus neque debitis vitae officiis. Eligendi exercitationem id enim laborum temporibus eveniet facere aspernatur, architecto, voluptatum reiciendis facilis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis voluptate eligendi non quod aliquid id perferendis ullam necessitatibus in enim.</p></div>
-                <div class="home-about-us"><h2>Our idea</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, amet!</p></div>
-                
+                <div class="home-about-us">
+                    <h2>How we make our coffe?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A iure illo rem enim, assumenda
+                        perspiciatis aliquam ullam adipisci voluptatibus perferendis inventore velit corrupti in cum
+                        suscipit voluptas dicta nisi consequuntur, laborum libero minus neque debitis vitae officiis.
+                        Eligendi exercitationem id enim laborum temporibus eveniet facere aspernatur, architecto,
+                        voluptatum reiciendis facilis? Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Corporis voluptate eligendi non quod aliquid id perferendis ullam necessitatibus in enim.</p>
+                </div>
+                <div class="home-about-us">
+                    <h2>Why you should choose us?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A iure illo rem enim, assumenda
+                        perspiciatis aliquam ullam adipisci voluptatibus perferendis inventore velit corrupti in cum
+                        suscipit voluptas dicta nisi consequuntur, laborum libero minus neque debitis vitae officiis.
+                        Eligendi exercitationem id enim laborum temporibus eveniet facere aspernatur, architecto,
+                        voluptatum reiciendis facilis? Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Corporis voluptate eligendi non quod aliquid id perferendis ullam necessitatibus in enim.</p>
+                </div>
+                <div class="home-about-us">
+                    <h2>Our idea</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, amet!</p>
+                </div>
+
             </div>
         </article>
-        <article id="our-products">
-            <div class="product">
-                <h2>Mokka</h2>
-                <img width="250" src="https://cdn.pixabay.com/photo/2020/03/20/20/48/coffe-4951982_1280.jpg" alt="Latte Coffe">
-                <h3>Taste little pleasure</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, provident!</p>
-                <h4>$9/250ml</h4>
-            </div>
-            <div class="product">
-                <h2>Latte</h2>
-                <img width="250" src="https://cdn.pixabay.com/photo/2020/03/20/20/50/coffe-4951996_1280.jpg" alt="Latte Coffe">
-                <h3>Best latte in the city</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, provident!</p>
-                <h4>$12/300ml</h4>
-            </div>
-            <div class="product">
-                <h2>Carmel Latte</h2>
-                <img width="250" src="https://cdn.pixabay.com/photo/2020/03/20/20/49/coffe-4951985__480.jpg" alt="Latte Coffe">
-                <h3>Natural carmel syrup</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, provident!</p>
-                <h4>$15/200ml</h4>
-            </div>
-        </article>
-        <article id="order">
-            <h2>Order hot coffe right now!</h2>
-            <form action="">
-                <input type="text" name="fname" id="fname" placeholder="Enter your full name">
-                <input type="text" name="street" id="street" placeholder="Street">
-                <input type="text" name="local" id="local" placeholder="Local number">
-                <input type="tel" name="tel" id="tel" placeholder="Telephone number">
-                <input type="button" value="I make an order">
-            </form>
-        </article>
+        <div class="page-background">
+            <article id="our-products">
+                <div class="add-to-cart-info">Added to cart!</div>
+                <div class="product">
+                    <h2>Mokka</h2>
+                    <img width="250" src="https://cdn.pixabay.com/photo/2020/03/20/20/48/coffe-4951982_1280.jpg"
+                        alt="Latte Coffe">
+                    <h3>Taste little pleasure</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, provident!</p>
+                    <h4>$9/250ml</h4>
+                    <input type="button" value="Add to cart">
+                </div>
+                <div class="product">
+                    <h2>Latte</h2>
+                    <img width="250" src="https://cdn.pixabay.com/photo/2020/03/20/20/50/coffe-4951996_1280.jpg"
+                        alt="Latte Coffe">
+                    <h3>Best latte in the city</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, provident!</p>
+                    <h4>$12/300ml</h4>
+                    <input type="button" value="Add to cart">
+                </div>
+                <div class="product">
+                    <h2>Carmel Latte</h2>
+                    <img width="250" src="https://cdn.pixabay.com/photo/2020/03/20/20/49/coffe-4951985__480.jpg"
+                        alt="Latte Coffe">
+                    <h3>Natural carmel syrup</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, provident!</p>
+                    <h4>$15/200ml</h4>
+                    <input type="button" value="Add to cart">
+                </div>
+            </article>
+            <article id="order">
+                <h2>Order hot coffe right now!</h2>
+                <form action="">
+                    <input type="text" name="fname" id="fname" pattern="[a-z]*" placeholder="Enter your full name">
+                    <input type="text" name="street" id="street" placeholder="Street">
+                    <input type="text" name="local" id="local" placeholder="Local number">
+                    <input type="tel" name="tel" id="tel" pattern="[0-9]*" placeholder="Telephone number">
+                    <input type="button" value="I make an order">
+                </form>
+            </article>
+        </div>
         <footer>
             <p>Copyright by &copy; Adrian Kruczyk</p>
         </footer>
     </main>
+    <script src="responsive-nav.js"></script>
 </body>
+
 </html>
