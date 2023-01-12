@@ -16,8 +16,39 @@ nav{
     top: 0px; 
     left: 0px;
 }
-nav input{
+#navMenu{
     display: none;
+    margin-right: 1em;
+}
+#navMenu > span{
+    display: block;
+    width: 2em;
+    height: 4px;
+    border-radius: 999px;
+    background-color: #111;
+}
+#navMenu > span:not(:last-child){
+    margin-bottom: 7px;
+}
+#navMenu, #navMenu > span{
+    transition: all .4s ease-in-out;
+}
+#navMenu.active{
+    transition-delay: .8s;
+    transform: rotate(45deg);
+}
+#navMenu.active > span:nth-child(2){
+    width: 0;
+}
+#navMenu.active > span:nth-child(1),
+#navMenu.active > span:nth-child(3){
+    transition-delay: .4s;
+}
+#navMenu.active > span:nth-child(1){
+    transform: translateY(9px);
+}
+#navMenu.active > span:nth-child(3){
+    transform: translateY(-13px) rotate(90deg);
 }
 nav img{
     margin: 1em;
@@ -197,6 +228,7 @@ footer{
     width: 100%;
 
     opacity: 0;
+    display: none;
     position: fixed;
     top: 15vh;
     left: 0;
