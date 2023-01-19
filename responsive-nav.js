@@ -37,7 +37,7 @@
             ulLiA: "font-size: 1em; line-height: 2.5em;",
         }
         const mobileScreenConfigMenuOff = {
-            nav: "width: 100%; height: 15vh; position: fixed; z-index: 2; top: 0; left: 0;background-color: rgba(194, 155, 65);",
+            nav: "width: 100%; height: 15vh; position: fixed; z-index: 2; top: 0; left: 0;background: linear-gradient(0deg, rgba(211,164,52,1) 20%, rgba(219,172,61,1) 78%);",
             navMenu: "display: block; position: static;",
             ul: "display: none;",
             img: "display: block;"
